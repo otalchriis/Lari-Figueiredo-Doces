@@ -53,14 +53,49 @@ main{
 }
 
 .menu{
-  max-width: 20%;
-  max-height: 50%;
+  border-style: inset;
+  width: 400px;
   height: 450px;
-
+  margin-right: 100px;
+  background-color: bisque;
+  padding-right: 5%;
 }
 
 .menu li{
   list-style-type: none;
-
+  line-height: 50px;
+  
 }
 
+.menu a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.trabalhos img{
+  height: 34%;
+  width: 21%;
+  border-radius: 50px;
+  margin-right: 55px;
+  margin-left: 15px;
+  padding: 3px;
+  
+}
+
+.divulga{
+  border-style: ridge;
+  position: absolute;
+  top: 540px;
+  right: 190px;
+  padding: 3%;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
+.divulga h1, a{
+  color: black;
+  display: inline;
+  text-decoration: none;
+
+}
